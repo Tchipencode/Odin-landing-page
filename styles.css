@@ -1,9 +1,10 @@
 body{
-    font-family: "roboto";
+    font-family: "roboto", Verdana, sans-serif;
     flex: 1;
     display: flex;
     flex-direction: column;
 }
+/*header part*/
 header {
     display: flex;
     justify-content: center;
@@ -11,7 +12,6 @@ header {
     flex-direction: column;
     background-color: #1F2937;
     padding-top: 10px;
-
 }
 
 .header-1{
@@ -19,17 +19,13 @@ header {
     justify-content: space-between;
     align-items: center;
     border: 10px red;
-    gap: 300px;
-    
-   
+    gap: 450px;
 }
 .logo{
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
-   
 }
-
 a{
     text-decoration: none;
     color: #E5E7EB;
@@ -45,8 +41,6 @@ a{
 }
 .header-title{
     width: 400px;
-   
-
 }
 #title{
     font-size: 48px;
@@ -68,6 +62,7 @@ p{
     height: 25px;
     margin-top: 10px;
 }
+/*main content part*/
 main{
     display: flex;
  
@@ -84,7 +79,6 @@ main{
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
-    
 }
 .random-images{
     display: flex;
@@ -99,15 +93,13 @@ main{
 .image-box{
     display: flex;
     flex-direction: column;
-   
+    align-items: center;
 }
-.imgage-box p{
+.image-box p{
     text-align: center;
     margin: 0 10px;
     padding: 0 30px;
-    color: #1F2937;
-  
-    
+    color: #1F2937;   
 }
 .quote{
     background-color: #E5E7EB;
@@ -155,10 +147,12 @@ main{
     width: 90px;
     border-style: solid;
 }
+/*footer part*/
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: #1F2937;
     height: 100px;
 }
